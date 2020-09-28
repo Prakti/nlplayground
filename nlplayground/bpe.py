@@ -5,9 +5,6 @@ class Vocabulary:
         self.voc = set()
 
 
-def createVocabularyBPE(text):
+def create_vocabulary_BPE(text):
     voc = Vocabulary()
     return voc
-
-if __name__ == "__main__":
-    print("Hello World")
